@@ -21,6 +21,6 @@ def process(input, entities=None):
     output = {
         'input': input,
         'output': TextTemplate(random.choice(greetings)).get_message(),
-        'success': True
+        'success': False
     }
     return output
